@@ -3,6 +3,7 @@
 @section('title', 'Welcome')
 
 @section('content')
+<<<<<<< HEAD
 <div class="welcome-container">
     <!-- Hero Section -->
     <section class="hero">
@@ -83,5 +84,17 @@
             <a href="{{ route('books.create') }}" class="btn btn-gradient btn-lg">Start Now</a>
         </div>
     </section>
+=======
+<div class="container">
+    <header>
+        <h1>Welcome to the Book Management System</h1>
+        <p>Your one-stop solution to manage books in the system!</p>
+    </header>
+    
+    <div class="buttons">
+        <a href="{{ route('books.create') }}" class="btn btn-primary">Add New Book</a>
+        <a href="{{ route('books.index') }}" class="btn btn-secondary">Show Books</a>
+    </div>
+>>>>>>> 91a72233ed18df65e654b71edd02a54d4395067c
 </div>
 @endsection

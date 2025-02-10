@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,4 +49,31 @@
     </div>
 </body>
 
+=======
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    @include('layouts.style')
+    <title>@yield('title')</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    
+</head>
+<body>
+    
+    @include('layouts.header')
+
+    
+    <div class="content">
+        @yield('content')
+    </div>
+
+    
+    @include('layouts.footer')
+
+    
+    
+</body>
+>>>>>>> 91a72233ed18df65e654b71edd02a54d4395067c
 </html>
